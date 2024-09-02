@@ -1,3 +1,4 @@
-let elementID = document.getElementById("title");
+let tituloH1 = document.getElementById("title");
 
-elementID.innerHTML = "Manipulando el Dom";
+/* tituloH1.innerHTML = "Manipulando el Dom";
+ */
