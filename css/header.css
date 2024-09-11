@@ -1,20 +1,34 @@
 header {
+  position: fixed;
+  inset: 0%;
   height: 12vh;
   width: 100vw;
+  z-index: 2;
 
   display: flex;
   align-items: center;
   background: #054166;
   justify-content: space-between;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  opacity: 99%;
 }
 
 .figure {
   margin: 0;
   display: flex;
   align-items: center;
+  transition: rotate 0.5s, transform 0.5s;
 }
-.figure__link {
+
+.figure:hover {
+  rotate: 1deg;
+}
+
+.figure:active {
+  transform: scale(1.1);
+}
+
+.figure__link-2 {
   color: #f4ecef;
   text-decoration: none;
   font-weight: 500;

@@ -1,0 +1,52 @@
+.job-exp {
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 5%;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.job-exp__figure {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.job-exp__icon {
+  fill: #0d2a3c;
+  height: 2em;
+  margin-right: 10px;
+}
+
+.job-exp__title {
+  color: #0d2a3c;
+  font-size: 1.5rem;
+}
+
+.job-exp__figure-2 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.job-exp__date-icon {
+  fill: #0d2a3c;
+  height: 1.5em;
+  margin-right: 10px;
+  background-color: aqua;
+  padding: 8px;
+  border-radius: 30%;
+}
+
+.job-exp__job-name {
+  display: flex;
+  align-items: center;
+}
+
+.job-exp__company {
+  margin-left: 10px;
+  color: aqua;
+}
