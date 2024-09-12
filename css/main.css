@@ -5,9 +5,8 @@
 
   display: flex;
   justify-content: space-between;
-/*   padding: 10px;
- */  scroll-behavior: smooth;
 
+  scroll-behavior: smooth;
 }
 
 .main__title {
@@ -32,6 +31,7 @@
 .main__img {
   height: 10em;
   width: auto;
+  box-shadow: 0.2px 0.2px 15px grey;
 
   animation: main-img-animation 10s infinite;
 }
@@ -86,6 +86,8 @@
   margin-right: 5%;
   width: 20%px;
   border-radius: 20px;
+  box-shadow: 0.2px 0.2px 5px grey;
+
   transition: transform 0.8s, background-color 0.5s;
 }
 
@@ -94,5 +96,5 @@
   background-color: #488fbb;
 }
 .main__button:active {
-  transform: scale(0.90);
+  transform: scale(0.9);
 }
