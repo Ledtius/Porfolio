@@ -93,6 +93,7 @@
 .proyects__buttons-nav {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 .proyects__button {
   display: flex;
@@ -100,10 +101,12 @@
   text-decoration: none;
   color: white;
   padding: 8px;
+  margin-right:40%;
   border-radius: 10px;
   background-color: #7c8185;
   margin-bottom: 10px;
   box-shadow: 0.2px 0.2px 2px grey;
+  
 
   transition: background-color 1s, transform 1s;
 }

@@ -1,0 +1,32 @@
+.skills {
+  margin-top: 5%;
+
+  margin-left: 18%;
+  margin-right: 18%;
+  display: flex;
+}
+
+.skills__figure {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.skills__icon {
+  fill: #0d2a3c;
+  height: 2em;
+  margin-right: 10px;
+}
+
+.skills__title {
+  font-size: 1.5rem;
+  color: #0d2a3c;
+}
+
+.skills__soft{
+    background-color: #F1F5F9;
+}
+
+.skills__hard{
+    background-color: #F1F5F9;
+}
