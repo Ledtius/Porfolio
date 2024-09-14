@@ -4,6 +4,7 @@
   margin-left: 18%;
   margin-right: 18%;
   display: flex;
+  flex-direction: column;
 }
 
 .skills__figure {
@@ -23,10 +24,31 @@
   color: #0d2a3c;
 }
 
-.skills__soft{
-    background-color: #F1F5F9;
+.skills__soft {
+  background-color: #f1f5f9;
+  border-radius: 10px;
+
 }
 
-.skills__hard{
-    background-color: #F1F5F9;
+.skills__hard {
+  background-color: #f1f5f9;
+  border-radius: 10px;
+
+}
+
+.skills__hard-title {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.skills__sub-icon {
+  height: 1.5em;
+  fill: #054166;
+  margin-right: 10px;
+}
+
+.skills__subtitle {
+  font-size: 1rem;
+  color: #054166;
 }
