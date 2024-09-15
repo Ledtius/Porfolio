@@ -5,8 +5,6 @@
 
   display: flex;
   justify-content: space-between;
-
-  scroll-behavior: smooth;
 }
 
 .main__title {
