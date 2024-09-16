@@ -5,9 +5,22 @@ body {
   margin: 0;
   padding: 0;
   z-index: 1;
- 
 }
 
-html{
+html {
   scroll-behavior: smooth;
+}
+
+.credit__midu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.credit__strong-2{
+  color: grey;
+}
+
+.credit__link--active {
+  color: #488fbb;
 }
