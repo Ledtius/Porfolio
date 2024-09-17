@@ -5,6 +5,7 @@
 
   display: flex;
   justify-content: space-between;
+
 }
 
 .main__title {
@@ -21,6 +22,7 @@
 .main__paragraph {
   font-size: 1.5rem;
   line-height: 1.25em;
+  
 }
 .main__figure {
   display: flex;
@@ -65,6 +67,7 @@
   align-items: center;
   height: 100px;
   width: 100%;
+  
 }
 
 .main__svg {

@@ -34,14 +34,13 @@
 .proyects__card-1 {
   margin: 0;
   display: flex;
-  align-items: center ;
-
+  align-items: center;
 }
 
 .proyects__img {
   border-radius: 10px;
   margin-right: 5%;
-    border-style: solid;
+  border-style: solid;
   border-color: #f1f5f9;
   box-shadow: 0.1px 0.1px 2px;
 
@@ -53,7 +52,6 @@
 .proyects__img:hover {
   transform: scale(1.1);
 }
-
 
 .proyects__subtitle {
   font-size: 1.5rem;
@@ -101,12 +99,11 @@
   text-decoration: none;
   color: white;
   padding: 8px;
-  margin-right:40%;
+  margin-right: 40%;
   border-radius: 10px;
   background-color: #7c8185;
   margin-bottom: 10px;
   box-shadow: 0.2px 0.2px 2px grey;
-  
 
   transition: background-color 1s, transform 1s;
 }

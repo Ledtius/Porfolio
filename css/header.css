@@ -10,6 +10,8 @@ header {
   justify-content: space-between;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   opacity: 99%;
+
+  /*  flex: 1 1 300px; */
 }
 
 .figure {
