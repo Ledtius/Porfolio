@@ -1,0 +1,80 @@
+.job-exp {
+  margin: 0 17.6rem;
+  /* background-color: white; */
+  padding: 1.2rem;
+  border-radius: 2.4rem;
+  /* box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2); */
+}
+
+.job-exp__header {
+  margin: 0;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.job-exp__title {
+  color: black;
+}
+
+.job-exp__icon {
+  width: 3.2rem;
+  fill: black;
+}
+
+.job-exp__job {
+  margin: 0;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.job-exp__subtitle {
+  margin: 1.2rem 0;
+}
+
+.job-exp__date-icon {
+  width: 3.6rem;
+  height: 3.6rem;
+  fill: black;
+  padding: 0.8rem;
+  background-color: white;
+  border-radius: 1.2rem;
+}
+.job-exp__company {
+  color: white;
+}
+
+.job-exp__general {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0 0 0 1.6rem;
+  padding: 1.6rem;
+  /* gap: 1.6rem; */
+  border-left: 1px solid black;
+
+  align-items: center;
+}
+
+.job-exp__figure {
+  height: 20rem;
+  border: 0.6rem solid black;
+  background-color: black;
+}
+.job-exp__info {
+  margin: 0 0 0 2rem;
+}
+
+.job-exp__description {
+  max-width: 50rem;
+  flex-basis: 40rem;
+}
+
+.job-exp__date {
+  font-style: italic;
+}
+
+.job-exp__job-image {
+  width: 24rem;
+}
