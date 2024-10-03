@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
+  z-index: 2;
 }
 
 .floating-btns__icon {
@@ -19,7 +20,6 @@
   height: 4rem;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
 }
-
 
 .floating-btns__link {
   display: flex;
@@ -68,6 +68,7 @@
   background-color: white;
   position: fixed;
   border-radius: 100%;
+  border: 1px solid black;
   height: 4em;
   padding: 2rem;
   bottom: 3.2rem;
@@ -75,16 +76,15 @@
   animation-timing-function: linear;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-
-
 }
 
 @keyframes move-arrow {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1.05);
   }
 
-  50%{
+  50% {
     transform: scale(1);
   }
 }

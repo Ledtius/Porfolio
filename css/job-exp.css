@@ -1,9 +1,10 @@
 .job-exp {
-  margin: 0 17.6rem;
-  /* background-color: white; */
-  padding: 1.2rem;
-  border-radius: 2.4rem;
-  /* box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2); */
+  margin: 0;
+  padding: 0 17.6rem;
+  position: relative;
+  background-color: #124F88;
+  /* padding: 1.2rem; */
+  /* border-radius: 2.4rem; */
 }
 
 .job-exp__header {
@@ -77,4 +78,13 @@
 
 .job-exp__job-image {
   width: 24rem;
+}
+
+.job-exp__wave {
+  z-index: -1;
+  position: absolute;
+  bottom: -30rem;
+  left: 0;
+  width: 100%;
+  height: auto;
 }

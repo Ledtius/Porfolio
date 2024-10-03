@@ -1,0 +1,15 @@
+.proyects {
+  padding: 0 17.6rem;
+  margin: 32rem 0 0 0;
+  display: flex;
+}
+
+.proyects__header {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.proyects__icon {
+  width: 4rem;
+  fill: black;
+}
