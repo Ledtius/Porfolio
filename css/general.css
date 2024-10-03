@@ -4,6 +4,7 @@ html {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   font-size: 62.5%;
+  scroll-padding: 10rem;
 }
 
 *,
@@ -13,6 +14,7 @@ html {
 }
 
 body {
+  position: relative;
   min-width: 32rem;
   display: flex;
   flex-direction: column;
@@ -21,9 +23,10 @@ body {
   margin: 0;
   padding: 0;
   /* Omolon Gradient */
-  background: #091e3a, #2f80ed, #2d9ee0;
+  /* background: #091e3a, #2f80ed, #2d9ee0;
   background: -webkit-linear-gradient(0deg, #091e3a, #2f80ed, #2d9ee0);
-  background: linear-gradient(0deg, #091e3a, #2f80ed, #2d9ee0);
+  background: linear-gradient(0deg, #091e3a, #2f80ed, #2d9ee0); */
+  background-color: #124F88;
   
   height: 300vh;
 }

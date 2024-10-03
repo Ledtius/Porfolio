@@ -50,11 +50,6 @@ header {
   transition: color 0.5s;
 }
 
-.header__link:hover {
-  /* color: darkgrey; */
-}
-
-
 .header__link::before {
   content: "";
   position: absolute;
@@ -71,12 +66,10 @@ header {
   content: "";
   opacity: 1;
   width: 100%;
-
-
 }
 
-/* .header__link:hover:after {
-  content: "😈";
-  display:flex;
+
+.header__link:active::before {
+  opacity: 1;
+  width: 100%;
 }
- */
