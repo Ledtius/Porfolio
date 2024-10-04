@@ -1,10 +1,11 @@
 .proyects {
   padding: 0 17.6rem;
-  margin: 32rem 0 0 0;
-  display: flex;
+  margin: 28rem 0 0 0;
+  /* display: flex; */
 }
 
 .proyects__header {
+  margin: 0;
   display: flex;
   gap: 1.6rem;
 }
@@ -12,4 +13,81 @@
 .proyects__icon {
   width: 4rem;
   fill: black;
+}
+
+.proyects__card {
+  height: 100%;display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  /* flex-grow: 1; */
+  padding: 2rem;
+  /* background-color: #b0bec5; */
+}
+
+.proyects__figure {
+  /* width: 30rem; */
+}
+
+.proyects__image {
+  /* display: flex; */
+  width: 36rem;
+  object-fit: cover;
+}
+
+.proyects__proyect-description{
+  margin: 2.4rem 0 4rem 0;
+
+}
+
+.proyects__techs-list {
+  margin: 0 0 4rem 0;
+
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.6rem;
+}
+
+.proyects__tech {
+  padding: 0.4rem;
+  border-radius: 0.8rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.proyects__tech-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.proyects__buttons-list {
+  padding: 0;
+  display: flex;
+  gap: 50%;
+}
+
+.proyects__link {
+  display: flex;
+  padding: 1rem;
+  border-radius: 1.6rem;
+  border: 1px solid black;
+  background-color: grey;
+  gap: 0.4rem;
+  /* flex-flow: row wrap; */
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.5s;
+}
+
+.proyects__link:hover {
+  transform: scale(1.04);
+}
+
+.proyects__button-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  fill: white;
 }
