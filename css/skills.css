@@ -1,0 +1,56 @@
+.skills {
+  background-color: #124f88;
+  padding: 0 17.6rem;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.skills__header {
+  margin: 0 0 4.4rem 0;
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.skills__icon {
+  width: 3.2rem;
+  fill: black;
+}
+
+.skills__techs-list {
+  /* padding: 2rem; */
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.skills__tech {
+  border-radius: 72% 58% 52% 100% / 46% 78% 72% 63%;
+  background-color: white;
+  width: auto;
+  display: flex;
+  color: black;
+  font-size: 1.6rem;
+  gap: 1.2rem;
+  align-items: center;
+  flex-flow: column nowrap;
+  padding: 2rem;
+  /* background-color: white; */
+  list-style: none;
+}
+
+.skills__tech-icon {
+  height: 9.4rem;
+  width: 9.4rem;
+}
+
+.skills__wave {
+  position: absolute;
+  transform: scaleY(-1);
+  left: 0;
+  bottom: -23.2rem;
+}
