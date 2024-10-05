@@ -1,0 +1,41 @@
+.about-me {
+  position: relative;
+  padding: 0 17.6rem;
+}
+
+.about-me__header {
+  margin: 0;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.about-me__icon {
+  width: 3.2rem;
+}
+
+.about-me__item {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.about-me__photo {
+  border-radius: 44% 56% 32% 68% / 61% 49% 51% 39%;
+  z-index: 1;
+  display: flex;
+  padding: 1rem;
+  /* background-color: #124f88; */
+  width: 40rem;
+}
+
+.about-me__figure {
+  position: absolute;
+  z-index: -1;
+  background-color: #124f88;
+  bottom: 0;
+  right: 15rem;
+  border: 1px solid #124f88;
+  border-radius: 44% 56% 32% 68% / 61% 49% 51% 39%;
+  height: 28rem;
+  width: 30rem;
+}

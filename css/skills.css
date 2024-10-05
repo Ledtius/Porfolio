@@ -4,6 +4,8 @@
   margin: 0;
   display: flex;
   flex-flow: column nowrap;
+  margin: 0 0 28rem 0;
+
 }
 
 .skills__header {
@@ -53,4 +55,5 @@
   transform: scaleY(-1);
   left: 0;
   bottom: -23.2rem;
+  z-index: -1;
 }
