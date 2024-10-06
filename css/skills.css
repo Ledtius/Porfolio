@@ -5,6 +5,7 @@
   display: flex;
   flex-flow: column nowrap;
   margin: 0 0 28rem 0;
+  position: relative;
 
 }
 
