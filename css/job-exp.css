@@ -1,36 +1,42 @@
 .job-exp {
+  display: flex;
+  /* align-items: center; */
+  flex-flow: column nowrap;
+  position: relative;
   margin: 0;
   padding: 0 17.6rem;
   position: relative;
   background-color: #124f88;
-  /* padding: 1.2rem; */
-  /* border-radius: 2.4rem; */
 }
 
 .job-exp__header {
-  margin: 0;
+  margin: 0 0 4rem 0;
   display: flex;
+  /* justify-content: center; */
   gap: 1.6rem;
 }
 
 .job-exp__title {
-  color: black;
+  margin: 0;
+  font-size: 2em;
+  color: #f2f2f2;
 }
 
 .job-exp__icon {
   width: 3.2rem;
-  fill: black;
+  fill: #f2f2f2;
 }
 
 .job-exp__job {
   margin: 0;
-  color: black;
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  /* justify-content: flex-end; */
 }
 
 .job-exp__subtitle {
+  color: #b0b0b0;
   margin: 1.2rem 0;
 }
 
@@ -39,11 +45,11 @@
   height: 3.6rem;
   fill: black;
   padding: 0.8rem;
-  background-color: white;
+  background-color: #f7c331;
   border-radius: 1.2rem;
 }
 .job-exp__company {
-  color: white;
+  color: #f7c331;
 }
 
 .job-exp__general {
@@ -54,8 +60,6 @@
   padding: 1.6rem;
   /* gap: 1.6rem; */
   border-left: 1px solid black;
-
-  align-items: center;
 }
 
 .job-exp__figure {
@@ -73,11 +77,14 @@
 }
 
 .job-exp__date {
+  color: #8a8a8a;
   font-style: italic;
 }
 
 .job-exp__job-image {
-  width: 24rem;
+  border-radius: 4rem;
+  /* background-color: white; */
+  width: 32rem;
 }
 
 .job-exp__wave {
@@ -87,4 +94,9 @@
   left: 0;
   width: 100%;
   height: auto;
+}
+
+.job-exp__wave:nth-child(1) {
+  top: -30rem;
+  z-index: 1;
 }

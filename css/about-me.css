@@ -9,8 +9,18 @@
   gap: 1.6rem;
 }
 
+.about-me__title {
+  font-size: 3.2rem;
+}
+
 .about-me__icon {
   width: 3.2rem;
+}
+
+.about-me__description {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 .about-me__item {
@@ -32,10 +42,40 @@
   position: absolute;
   z-index: -1;
   background-color: #124f88;
-  bottom: 0;
+  bottom: 6rem;
   right: 15rem;
   border: 1px solid #124f88;
   border-radius: 44% 56% 32% 68% / 61% 49% 51% 39%;
   height: 28rem;
   width: 30rem;
+}
+
+.about-me__button {
+  margin: 3rem 0 0 0;
+  /* width: fit-content; */
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  color: white;
+  padding: 1.2rem;
+  border-radius: 1.6rem;
+  background-color: #124f88;
+  transition: transform 1s;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.about-me__button:hover {
+  /* color: #124f88; */
+  transform: scale(1.04);
+}
+
+.about-me__button-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  fill: white;
+  /* height: 4rem; */
 }

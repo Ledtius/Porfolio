@@ -67,18 +67,6 @@
           class="hero__photo"
         />
       </section>
-
-      <svg
-        class="hero__wave"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-      >
-        <path
-          fill="#124F88"
-          fill-opacity="1"
-          d="M0,128L120,144C240,160,480,192,720,186.7C960,181,1200,139,1320,117.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-        ></path>
-      </svg>
     </section>
     <figure class="floating-btns">
       <a
@@ -138,7 +126,19 @@
         </svg>
       </a>
     </figure>
+
     <section id="job-exp" class="job-exp">
+      <svg
+        class="job-exp__wave"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#124F88"
+          fill-opacity="1"
+          d="M0,128L120,144C240,160,480,192,720,186.7C960,181,1200,139,1320,117.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+        ></path>
+      </svg>
       <figure class="job-exp__header">
         <svg
           class="job-exp__icon"
@@ -167,7 +167,6 @@
         </h3>
       </article>
       <section class="job-exp__general">
-        <!-- <figure class="job-exp__figure"></figure> -->
         <article class="job-exp__info">
           <time datetime="2023-06" class="job-exp__date"
             >● Junio 2023 - Febrero 2024</time
@@ -222,7 +221,7 @@
             />
           </figure>
           <article class="proyects__general-description">
-            <h3 class="proyects__proyect-title">Portfolio personal (V.1)</h3>
+            <h3 class="proyects__proyect-title">📋 Portfolio personal (V.1)</h3>
             <p class="proyects__proyect-description">
               Esta versión portafolio personal presenta un diseño simple pero
               conciso, donde se muestran claramente mis experiencias laborales,
@@ -435,12 +434,11 @@
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
         >
-          <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
           <path
             d="M4.1 38.2C1.4 34.2 0 29.4 0 24.6C0 11 11 0 24.6 0L133.9 0c11.2 0 21.7 5.9 27.4 15.5l68.5 114.1c-48.2 6.1-91.3 28.6-123.4 61.9L4.1 38.2zm503.7 0L405.6 191.5c-32.1-33.3-75.2-55.8-123.4-61.9L350.7 15.5C356.5 5.9 366.9 0 378.1 0L487.4 0C501 0 512 11 512 24.6c0 4.8-1.4 9.6-4.1 13.6zM80 336a176 176 0 1 1 352 0A176 176 0 1 1 80 336zm184.4-94.9c-3.4-7-13.3-7-16.8 0l-22.4 45.4c-1.4 2.8-4 4.7-7 5.1L168 298.9c-7.7 1.1-10.7 10.5-5.2 16l36.3 35.4c2.2 2.2 3.2 5.2 2.7 8.3l-8.6 49.9c-1.3 7.6 6.7 13.5 13.6 9.9l44.8-23.6c2.7-1.4 6-1.4 8.7 0l44.8 23.6c6.9 3.6 14.9-2.2 13.6-9.9l-8.6-49.9c-.5-3 .5-6.1 2.7-8.3l36.3-35.4c5.6-5.4 2.5-14.8-5.2-16l-50.1-7.3c-3-.4-5.7-2.4-7-5.1l-22.4-45.4z"
           ></path>
         </svg>
-        <h2>Habilidades</h2>
+        <h2 class="skills__title">Habilidades</h2>
       </figure>
       <ul class="skills__techs-list">
         <li class="skills__tech">
@@ -699,6 +697,23 @@
             web, colaborando de manera estrecha con desarrolladores, diseñadores
             y el jefe de proyecto 🤝.
           </p>
+          <a
+            target="_blank"
+            class="about-me__button"
+            href="https://drive.google.com/file/d/1-ZcssGUlwQMDtZYax37shdW6CUtrgdSh/view?usp=drive_link"
+          >
+            <svg
+              class="about-me__button-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
+            >
+              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z"
+              ></path>
+            </svg>
+            View CV
+          </a>
         </article>
         <img
           src="images/photo-no-fondo.png"
@@ -723,7 +738,7 @@
       <section class="footer__top">
         <ul class="footer__list">
           <li class="footer__item">
-            <a href="#job-exp" class="footer__link">Experiencia laborals</a>
+            <a href="#job-exp" class="footer__link">Experiencia laboral</a>
           </li>
           <li class="footer__item">
             <a href="#proyects" class="footer__link">Proyectos</a>

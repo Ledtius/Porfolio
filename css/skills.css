@@ -16,9 +16,15 @@
   align-items: center;
 }
 
+.skills__title{
+  color: #F2F2F2;
+  font-size: 3.2rem;
+}
+
+
 .skills__icon {
   width: 3.2rem;
-  fill: black;
+  fill: #F2F2F2;
 }
 
 .skills__techs-list {

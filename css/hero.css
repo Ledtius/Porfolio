@@ -1,6 +1,6 @@
 .hero {
-  position: relative;
-  margin: 0 0 20rem 0;
+  /* position: relative; */
+  margin: 0 0 30rem 0;
   width: 100%;
 
   min-width: 500px;
@@ -10,8 +10,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
+
+
+
+
 
 .hero__image {
   margin: 0;
@@ -26,6 +29,7 @@
 
 .hero__presentation {
   display: flex;
+  /* min-width: 40.6rem; */
   gap: 1.6rem;
   flex-flow: row wrap;
   justify-content: center;
@@ -59,6 +63,16 @@
   font-size: 3.2rem;
 }
 
+.hero__subtitle {
+  font-size: 1em;
+  width: 320px;
+  animation: animacion 2.5s steps(35),
+    transparent 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+}
+
 @keyframes animacion {
   from {
     width: 0px;
@@ -69,16 +83,6 @@
   50% {
     border-color: transparent;
   }
-}
-
-.hero__subtitle {
-  font-size: 1em;
-  width: 320px;
-  animation: animacion 2.5s steps(35),
-    transparent 0.5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 1px solid;
 }
 
 .hero__wave {

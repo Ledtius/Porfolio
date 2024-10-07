@@ -2,7 +2,6 @@
   position: relative;
   padding: 0 17.6rem;
   margin: 28rem 0 19.9rem 0;
-  /* display: flex; */
 }
 
 .proyects__wave {
@@ -13,9 +12,15 @@
 }
 
 .proyects__header {
-  margin: 0;
+  margin: 0 0 4rem 0;
+
   display: flex;
+  /* justify-content: center; */
   gap: 1.6rem;
+}
+
+.proyects__title {
+  font-size: 3.2rem;
 }
 
 .proyects__icon {
@@ -83,7 +88,7 @@
   padding: 1rem;
   border-radius: 1.6rem;
   border: 1px solid black;
-  background-color: grey;
+  background-color: #867d7d;
   gap: 0.4rem;
   align-items: center;
   text-decoration: none;
